@@ -1,0 +1,115 @@
+/* stylesheet */
+.container {
+    padding-bottom: 90px;
+    }
+
+body {
+    font-family: 'Barlow Condensed' , sans-serif;
+    position: relative;
+    min-height: 100vh;
+    }
+    
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 18px;
+    background: #e95551;
+    text-align: center;
+    margin-top: 20px;
+    }
+
+#map {
+    height: 80vh;
+}
+
+.thumbnail {
+    max-width: 100%;
+    max-height: 100%;
+}
+.spacer {
+    padding: 25px 0 0 0;
+    }
+
+path.line {
+    fill: none;
+    /* stroke:rgb(255, 153, 0); */
+    stroke:#e95551;
+}
+
+path.line-state {
+    fill: none;
+    stroke: #6b8aa4;
+}
+
+.axis-red text {
+    /* fill: rgb(255, 153, 0); */
+    fill: #e95551;
+}
+
+.axis-blue text {
+    fill: #6b8aa4;
+}
+
+.sub-text {
+    font-size: 14px;
+}
+
+.tooltip {
+    position: absolute;
+    width: 200px;
+    height: 76px;
+    padding: 3px 0;
+    font-family: 'Barlow Condensed' , sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: black;
+    background: lightgrey;
+    border: 0;
+    border-radius: 10px;
+}
+
+#selButton {
+    /* background-color:rgb(255, 153, 0);  */
+    background-color:#e95551; 
+    border: black;
+    color: white;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'Barlow Condensed' , sans-serif;
+    margin-left: 10px;
+    border-radius:10px;
+}
+
+#selState {
+    background-color: #6b8aa4;
+    font-size: 12px;
+    border-radius:10px;border:1px solid;
+    color: white;
+    width: 130px;
+    height: 28px;
+    margin-left: 10px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#selClear {
+    background-color: rgb(148, 143, 143);
+    border: black;
+    color: white;
+    font-size: 12px;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+    margin-left: 10px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    border-radius:10px;
+
+}
+.sub-title {
+    color: black;
+}
